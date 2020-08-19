@@ -1,0 +1,23 @@
+How to fill the client_id and client_secret for the OAuth
+
+Go to https://console.developers.google.com &
+https://github.com/singingwolfboy/flask-dance-google (FOR INFO)
+
+Sign In to your google account
+Go to Credentials
+Click Configure Consent Screen
+UserTpe: External
+
+Fill Application Name and leave everything blank and SAVE
+Then go to Credentials
+Create Credentials >> OAuthID >> ApplicationType = Web Application
+
+In Authorized Redirect URL's for localhost type
+http://localhost:5000/login/google/authorized
+http://127.0.0.1:5000/login/google/authorized
+click CREATE and will get your client ID and SECRET
+
+Client_ID = 942941771057-igkfoj5kockmusdbkkvtv1eh6uvqvm3r.apps.googleusercontent.com
+Client_Secret = aaYNQzLb8hVA-t0e68ig6Ma8
+
+ADD these two to the code and run your code

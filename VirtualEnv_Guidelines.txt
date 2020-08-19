@@ -1,0 +1,20 @@
+https://www.geeksforgeeks.org/python-virtual-environment/
+
+
+run CMD as Admin pip install virtualenv
+virtualenv --version
+
+virtualenv flaskEnv (In the directory where you want to make that virtual environment)
+Navigate to flaskEnv/Scripts
+flaskEnv\Scripts>.\activate Run this command
+
+Not importamt (Just where Virtualenv was installed)
+C:\users\acer\appdata\local\programs\python\python37\lib\site-packages\virtualenv\__init__.py
+
+To get list of dependencies in the flaskEnv dir cmd and 
+$ pip freeze > requirements.txt
+$ type requirements.txt
+
+
+When want to install requirements
+pip install -r requirements.txt

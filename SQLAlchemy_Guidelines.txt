@@ -1,0 +1,7 @@
+# To set up flask migrate, wherever the py file is in the CMD file have to write this
+# $ set FLASK_APP=database.py
+# $ flask db init
+# (will see a migration folder)
+# $ flask db migrate -m "Created puppy table"
+# This creates a migration file
+# $ flask db upgrade
