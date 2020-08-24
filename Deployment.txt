@@ -1,0 +1,27 @@
+How to Deploy To Heroku!
+
+1) Make a virtualEnvironment in the folder where app.py is
+2) Activate it and Install Flask and other requiremets
+3) Install gunicorn
+4) Make a requirements.txt file $ pip freeze > requirements.txt
+5) Create a PROC file
+6) web: gunicorn app:app
+7) Go to Heroku CLI
+8) https://devcenter.heroku.com/articles/heroku-cli
+9) Install Heroku CLI and GIT (If not previously installed)
+10) Make account on Heroku at www.heroku.com
+Account:
+um******@hotmail.com
+N*********_***
+11) Sign In to Heroku >> Create New App >> <demo-basic-app> >> Create App
+
+12) Go to CMD in your VENV
+13) Go to where app.py is and type $ heroku login
+14) Then $ git init
+15) $ heroku git:remote -a demo-basic-app
+16) $ git add .
+17) $ git commit -am "First Commit"
+18) $ git push heroku master
+19) Get the link from CMD
+
+https://youtu.be/aEm0BN493sU
