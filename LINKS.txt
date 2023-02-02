@@ -1,1 +1,5 @@
-
+Flask Tutorial: https://www.softwaretestinghelp.com/flask-template-form-view-and-redirect/
+Propaganda App: https://github.com/umar1997/Propaganda_App
+Buy Puppy App: https://github.com/umar1997/Flask_App/tree/master/Buy%20Puppy%20App
+Social Blog App: https://github.com/umar1997/Flask_App/tree/master/Social%20Blog%20App
+Ajax Examples: https://github.com/umar1997/Propaganda_App/tree/main/Extra/Ajax_Example
